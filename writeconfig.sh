@@ -4,8 +4,6 @@ echo "loading new configs"
 
 [ ! -d "/home/configbackup" ] && mkdir /home/configbackup
 
-#mkdir /home/configbackup/
-sdf
 foldername="$(date +%F)_$(date +%T)"
 mkdir /home/configbackup/"$foldername"
 
